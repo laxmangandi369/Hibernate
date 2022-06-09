@@ -21,7 +21,6 @@ public class Passenger {
 	@Column(name="passenger_mobile_number")
 	private String mobileNumber;
 	@ManyToOne
-	
 	BusDetails bus;
 	
 	public Passenger() {

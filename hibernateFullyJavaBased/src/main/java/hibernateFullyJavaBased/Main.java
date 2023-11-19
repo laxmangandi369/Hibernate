@@ -23,6 +23,22 @@ public class Main {
 			
 			transaction.commit();
 		}
+			{
+			transaction=session.beginTransaction();
+			session.save(p4);
+			session.save(p5);
+			session.save(p1);
+			
+			transaction.commit();
+		}
+		{
+			transaction=session.beginTransaction();
+			session.save(p4);
+			session.save(p5);
+			session.save(p1);
+			
+			transaction.commit();
+		}
 		catch(Exception ex)
 		{
 			if(transaction!=null)

@@ -11,6 +11,11 @@ public class Main {
 		Transaction trans= null;
 		Student s1= new Student("aditiya","Kanimaar","kanimar.adi@gmail.com");
 		Student s2 = new Student("aishwariya","pratap","pratap.ash@gmail.com");
+
+		Student s1= new Student("aditiya","Kanimaar","kanimar.adi@gmail.com");
+		Student s2 = new Student("aishwariya","pratap","pratap.ash@gmail.com");
+		Student s1= new Student("aditiya","Kanimaar","kanimar.adi@gmail.com");
+		Student s2 = new Student("aishwariya","pratap","pratap.ash@gmail.com");
 		
 		try(Session session = HibernateUtil.getSessionFactory().openSession())
 		{
